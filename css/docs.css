@@ -58,6 +58,12 @@ body {
   font-size: 54px;
 }
 
+/* Logo */
+#website-logo {
+  width: 500px;
+  height: 150px;
+}
+
 /* Main Menu */
 #main-menu {
   position: absolute;

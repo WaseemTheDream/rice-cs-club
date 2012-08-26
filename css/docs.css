@@ -10,7 +10,7 @@
 -------------------------------------------------- */
 body {
   position: relative;
-  padding-top: 180px;
+  padding-top: 80px;
 /*  background-color: #fff;
   background-image: url(../img/grid-18px-masked.png);*/
   background-repeat: repeat-x;
@@ -58,21 +58,9 @@ body {
   font-size: 54px;
 }
 
-/* Logo */
-#website-logo {
-  width: 500px;
-  height: 150px;
-}
-
-/* Main Menu */
-#main-menu {
-  position: absolute;
-  left: 539px;
-  bottom: 2px;
-}
-
 /* Subnav */
 .subnav {
+  margin-bottom: 60px;
   width: 100%;
   height: 36px;
   background-color: #eeeeee; /* Old browsers */
@@ -165,6 +153,46 @@ body {
   }
 }
 
+.bsa {
+  float: right;
+  max-width: 400px;
+  padding: 0;
+}
+
+body .one .bsa_it_ad {
+  margin-bottom: -10px;
+  background: none;
+  border: none;
+  font-family: inherit;
+  color: inherit;
+}
+
+body .one .bsa_it_ad .bsa_it_t,
+body .one .bsa_it_ad .bsa_it_d {
+  color: inherit;
+  font-size: inherit;
+}
+
+body .one .bsa_it_p {
+  display: none;
+}
+
+#bsap_aplink {
+  float: right;
+  position: relative;
+  /*top: -25px;*/
+  right: 10px;
+  height: 0;
+  font-size: 11px;
+}
+
+@media (max-width: 768px) {
+
+  .bsa {
+    float: none;
+  }
+
+}
 
 
 /* Responsive Docs

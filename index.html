@@ -40,13 +40,9 @@
 	   </a>
        <div class="nav-collapse" id="main-menu"><ul class="nav" id="main-menu-left">
 	<!-- <li><a onclick="pageTracker._link(this.href); return false;" href="http://news.bootswatch.com/">Home</a></li> -->
-	<li><a id="swatch-link" href="index.html">Home</a></li>
-	<li><a id="swatch-link" href="officers.html">Officers</a></li>
-	<li><a id="swatch-link" href="sponsors.html">Sponsors</a></li>
-	<li><a id="swatch-link" href="career_resources.html">Career Resources</a></li>
-	<li><a id="swatch-link" href="social_events.html">Social Events</a></li>
-	<li><a id="swatch-link" href="hackathon.html">Hackathon</a></li>
-	<li><a id="swatch-link" href="contact_us.html">Contact Us</a></li>
+  {% for nav_item in nav_bar %}
+    <li><a id="swatch-link" href="{{ nav_item.link }}">{{ nav_item.text }}</a></li>
+  {% endfor %}
 </ul>
 </div>
      </div>

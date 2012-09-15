@@ -1,6 +1,5 @@
 [Rice CS Club Website]
 =================
-
 The public facing website for the Rice CS Club website. This website is based off of Twitter Bootstrap.
 
 
@@ -11,31 +10,10 @@ Visit the website at http://csclub.rice.edu
 
 Bug tracker
 -----------
-
 Have a bug? Please create an issue here on GitHub! Also, when filing please make sure you're familiar with [necolas's guidelines](https://github.com/necolas/issue-guidelines). thanks! <3
 
 
 Authors
 -------
-
-**Waseem Ahmad**
-
-+ http://www.waseemahmad.com
-
-
-Copyright and license
----------------------
-
-Copyright 2012 Twitter, Inc.
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this work except in compliance with the License.
-You may obtain a copy of the License in the LICENSE file, or at:
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+**[Waseem Ahmad](http://www.waseemahmad.com/)**
+**[Peter Washington](mailto:peterwashington@rice.edu)**

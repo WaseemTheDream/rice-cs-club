@@ -285,7 +285,7 @@ body .one .bsa_it_p {
 }
 
 
-@media (min-width: 768px) and (max-width: 980px) {
+@media (min-width: 768px) and (max-width: 810px) {
 
   /* Remove any padding from the body */
   body {

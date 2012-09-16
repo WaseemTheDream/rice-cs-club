@@ -304,7 +304,7 @@ body .one .bsa_it_p {
   /* Unfloat brand */
   .navbar-fixed-top .brand {
     float: left;
-    margin-left: 0;
+    margin-left: 10px;
     padding-left: 10px;
     padding-right: 10px;
   }

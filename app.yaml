@@ -1,4 +1,4 @@
-application: rice-cs-club
+application: ricecomputerscienceclub
 version: 1
 runtime: python27
 api_version: 1
@@ -18,7 +18,7 @@ handlers:
   static_files: img/favicon.ico
   upload: img/favicon\.ico
 
-- url: .*
+- url: /.*
   script: main.app
 
 libraries:

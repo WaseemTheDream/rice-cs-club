@@ -16,4 +16,5 @@ Have a bug? Please create an issue here on GitHub! Also, when filing please make
 Authors
 -------
 **[Waseem Ahmad](http://www.waseemahmad.com/)**
+
 **[Peter Washington](mailto:peterwashington@rice.edu)**

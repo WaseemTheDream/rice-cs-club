@@ -5,9 +5,57 @@
     <h1>Officers</h1>
   </div>
 
-  <div class="row">
+  <!--  Carousel -->
+  <!--  consult Bootstrap docs at 
+        http://twitter.github.com/bootstrap/javascript.html#carousel -->
+  <div id="officers-carousel" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="item active">
+        <a href="http://hubblesite.org/gallery/album/entire/pr2006046a/xlarge_web/npp/128/">  <img src="http://webdesigntutsplus.s3.amazonaws.com/tuts/342_bootstrap_carousel/Carousel-Files-COMPLETE/img/antennae.jpg" alt="Antennae Galaxies" />
+        </a>
+        <div class="carousel-caption">
+          <p>The Antennae Galaxies</p>
+          <p><a href="http://hubblesite.org/gallery/album/entire/pr2006046a/xlarge_web/npp/128/">Hubblesite.org &raquo;</a></p>
+        </div>
+      </div>
+      <div class="item">
+        <a href="http://hubblesite.org/gallery/album/entire/pr2007016e/xlarge_web/npp/128/">
+          <img src="http://webdesigntutsplus.s3.amazonaws.com/tuts/342_bootstrap_carousel/Carousel-Files-COMPLETE/img/antennae.jpg" alt="Carina Caterpillar" />
+        </a>
+        <div class="carousel-caption">
+          <p>Carina Nebula: The Caterpillar</p>
+          <p><a href="http://hubblesite.org/gallery/album/entire/pr2007016e/xlarge_web/npp/128/">Hubblesite.org &raquo;</a></p>
+        </div>
+      </div>
+      <div class="item">
+        <a href="http://hubblesite.org/gallery/album/entire/pr2003010i/npp/128/">
+          <img src="http://webdesigntutsplus.s3.amazonaws.com/tuts/342_bootstrap_carousel/Carousel-Files-COMPLETE/img/antennae.jpg" alt="Light Echo" />
+        </a>
+        <div class="carousel-caption">
+          <p>Light Echo From Star V838 Monocerotis</p>
+          <p><a href="http://hubblesite.org/gallery/album/entire/pr2003010i/npp/128/">Hubblesite.org &raquo;</a></p>
+        </div>
+      </div>
+      <div class="item">
+        <a href="http://hubblesite.org/gallery/album/entire/pr2006024a/xlarge_web/npp/128/">
+          <img src="http://webdesigntutsplus.s3.amazonaws.com/tuts/342_bootstrap_carousel/Carousel-Files-COMPLETE/img/antennae.jpg" alt="Galaxy NGC5866" />
+        </a>
+        <div class="carousel-caption">
+          <p>Galaxy NGC 5866</p>
+          <p><a href="http://hubblesite.org/gallery/album/entire/pr2006024a/xlarge_web/npp/128/">Hubblesite.org &raquo;</a></p>
+        </div>
+      </div>
+    </div><!-- .carousel-inner -->
+    <!--  next and previous controls here
+          href values must reference the id for this carousel -->
+      <a class="carousel-control left" href="#officers-carousel" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control right" href="#officers-carousel" data-slide="next">&rsaquo;</a>
+  </div><!-- .carousel -->
+  <!-- end carousel -->
 
-  
+
+
+  <div class="row">
  <!-- PUT CONTENT IN HERE
 ================================================== --> 
     <div class="span4">
@@ -19,4 +67,3 @@
   </div>
 
 </section>
-

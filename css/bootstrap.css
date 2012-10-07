@@ -5490,9 +5490,8 @@ select:focus {
 /* CS Club Specific Style Sheet */
 
 /* Officers Carousel */
-#officers-carousel .item img {
-  width: 500px;
-  height: 500px;
+#officers-carousel .item {
+  min-height: 500px;
 }
 #officers-carousel .carousel-caption {
   top: 0;

@@ -5500,6 +5500,7 @@ select:focus {
 #officers-carousel .carousel-caption h1, h3 {
   margin-top: 0px;
   margin-bottom: 0px;
+  line-height: 30px;
 }
 #officers-carousel .carousel-caption h1 {
   color: #33B5E5;
@@ -5537,8 +5538,9 @@ select:focus {
   background: url(../img/icons/contact_icons.png) 0 0 no-repeat;
   display: inline-block;
 }
-.contact-icons a.email      { background-position: 0px 0px; }
-.contact-icons a.twitter   { background-position: -60px 0px; }
+.contact-icons a.email      { background-position:    0px 0px; }
+.contact-icons a.twitter    { background-position:  -60px 0px; }
 .contact-icons a.facebook   { background-position: -120px 0px; }
 .contact-icons a.googleplus { background-position: -180px 0px; }
-.contact-icons a.linkedin       { background-position: -240px 0px; }
+.contact-icons a.linkedin   { background-position: -240px 0px; }
+.contact-icons a.github     { background-position: -300px 0px; }

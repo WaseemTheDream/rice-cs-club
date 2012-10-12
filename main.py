@@ -12,18 +12,19 @@ import os
 import webapp2
 
 MAIN_DIR = os.path.dirname(__file__)
+PAGES_DIR = os.path.join(MAIN_DIR, 'pages')
 
 JINJA_ENV = jinja2.Environment(
-    loader=jinja2.FileSystemLoader(MAIN_DIR))
+    loader=jinja2.FileSystemLoader(PAGES_DIR))
 
 NAV_BAR = [
-    {'text': 'Home', 'link': 'page_index.html'},
-    {'text': 'Officers', 'link': 'page_officers.html'},
-    {'text': 'Sponsors', 'link': 'page_sponsors.html'},
-    {'text': 'Career', 'link': 'page_career.html'},
-    {'text': 'Events', 'link': 'page_events.html'},
-    {'text': 'Hackathon', 'link': 'page_hackathon.html'},
-    {'text': 'Contact', 'link': 'page_contact.html'}]
+    {'text': 'Home', 'link': 'index.html'},
+    {'text': 'Officers', 'link': 'officers.html'},
+    {'text': 'Sponsors', 'link': 'sponsors.html'},
+    {'text': 'Career', 'link': 'career.html'},
+    {'text': 'Events', 'link': 'events.html'},
+    {'text': 'Hackathon', 'link': 'hackathon.html'},
+    {'text': 'Contact', 'link': 'contact.html'}]
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
@@ -36,7 +37,10 @@ class MainHandler(webapp2.RequestHandler):
             page_name = NAV_BAR[0]['link']
 
         # Get page info
-        page = JINJA_ENV.get_template(page_name).render()
+        try:
+            page = JINJA_ENV.get_template(page_name).render()
+        except Exception as e:
+            page = JINJA_ENV.get_template('not_found.html').render()
 
         template = JINJA_ENV.get_template('template.html')
         template_vals = {'nav_bar': NAV_BAR,

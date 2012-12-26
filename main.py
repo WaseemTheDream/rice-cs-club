@@ -18,13 +18,13 @@ JINJA_ENV = jinja2.Environment(
     loader=jinja2.FileSystemLoader(PAGES_DIR))
 
 NAV_BAR = [
-    {'text': 'Home', 'link': 'index.html'},
-    {'text': 'Officers', 'link': 'officers.html'},
-    {'text': 'Sponsors', 'link': 'sponsors.html'},
-    {'text': 'Career', 'link': 'career.html'},
-    {'text': 'Events', 'link': 'events.html'},
-    {'text': 'Hackathon', 'link': 'hackathon.html'},
-    {'text': 'Contact', 'link': 'contact.html'}]
+    {'text': 'Home', 'link': 'index'},
+    {'text': 'Officers', 'link': 'officers'},
+    {'text': 'Sponsors', 'link': 'sponsors'},
+    {'text': 'Career', 'link': 'career'},
+    {'text': 'Events', 'link': 'events'},
+    {'text': 'Hack Rice', 'link': 'http://hack.rice.edu/'},
+    {'text': 'Contact', 'link': 'contact'}]
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
@@ -38,7 +38,7 @@ class MainHandler(webapp2.RequestHandler):
 
         # Get page info
         try:
-            page = JINJA_ENV.get_template(page_name).render()
+            page = JINJA_ENV.get_template(page_name + '.html').render()
         except Exception as e:
             page = JINJA_ENV.get_template('not_found.html').render()
 

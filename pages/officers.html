@@ -14,7 +14,7 @@
         <img src="img/officers/waseem.jpg" alt="Waseem Ahmad" />
         <div class="carousel-caption">
           <h3>President</h3>
-          <h1>Waseem Ahmad</h1>
+          <h1><a target="_blank" href="http://waseemahmad.com">Waseem Ahmad</a></h1>
           <p>
             <strong>Class: </strong> Brown 2014<br>
             <strong>Hometown: </strong> Fort Lauderdale, FL
@@ -51,7 +51,7 @@
         </div>
       </div>
       <div class="item">
-        <img src="img/officers/sal.jpg" alt="Frank Salinas" />
+        <img src="img/officers/sal.jpg" alt="Sal Testa" />
         <div class="carousel-caption">
           <h3>Vice President</h3>
           <h1>Sal Testa</h1>
@@ -82,7 +82,7 @@
             </li>
           </ul>
           <p><ul class="contact-icons" style="text-align: center;">
-            <li><a class="email" target="_blank" href="sal.testa@rice.edu"></a></li>
+            <li><a class="email" target="_blank" href="mailto:sal.testa@rice.edu"></a></li>
             <li><a class="twitter" target="_blank" href="http://twitter.com/SalTesta14"></a></li>
             <li><a class="googleplus" target="_blank" href="https://plus.google.com/u/0/100511828134948202401/posts"></a></li>
             <li><a class="linkedin" target="_blank" href="http://www.linkedin.com/profile/view?id=171783931"></a></li>
@@ -91,7 +91,7 @@
         </div>
       </div>
       <div class="item">
-        <img src="img/officers/carolyn.jpg" alt="Frank Salinas" />
+        <img src="img/officers/carolyn.jpg" alt="Carolyn Shuford" />
         <div class="carousel-caption">
           <h3>Socials Chair</h3>
           <h1>Carolyn Shuford</h1>
@@ -122,13 +122,15 @@
             </li>
           </ul>
           <p><ul class="contact-icons" style="text-align: center;">
-            <li><a class="email" target="_blank" href="mailto:jec8@rice.edu"></a></li>
-            <li><a class="linkedin" target="_blank" href="http://www.linkedin.com/in/joanchao"></a></li>
+            <li><a class="email" target="_blank" href="mailto:cms14@rice.edu"></a></li>
+            <li><a class="linkedin" target="_blank" href="http://www.linkedin.com/in/carolynshuford"></a></li>
+            <li><a class="facebook" target="_blank" href="https://www.facebook.com/carolyn.shuford"></a></li>
+            <li><a class="googleplus" target="_blank" href="https://plus.google.com/116402794489644870277/"></a></li>
           </ul></p>
         </div>
       </div>
       <div class="item">
-        <img src="img/officers/peter.jpg" alt="Frank Salinas" />
+        <img src="img/officers/peter.jpg" alt="Peter Washington" />
         <div class="carousel-caption">
           <h3>Technical Chair</h3>
           <h1>Peter Washington</h1>
@@ -166,7 +168,7 @@
         </div>
       </div>
       <div class="item">
-        <img src="img/officers/aaron.jpg" alt="Frank Salinas" />
+        <img src="img/officers/aaron.jpg" alt="Aaron Roe" />
         <div class="carousel-caption">
           <h3>Treasurer</h3>
           <h1>Aaron Roe</h1>
@@ -197,9 +199,8 @@
             </li>
           </ul>
           <p><ul class="contact-icons" style="text-align: center;">
-            <li><a class="email" target="_blank" href="mailto:frank.salinas@rice.edu"></a></li>
-            <li><a class="facebook" target="_blank" href="http://facebook.com/myrrhdyrrh"></a></li>
-            <li><a class="linkedin" target="_blank" href="http://lnkd.in/C7qFPV"></a></li>
+            <li><a class="email" target="_blank" href="mailto:acr2@rice.edu"></a></li>
+            <li><a class="linkedin" target="_blank" href="http://www.linkedin.com/pub/aaron-roe/46/995/67a"></a></li>
           </ul></p>
         </div>
       </div>
@@ -210,5 +211,18 @@
       <a class="carousel-control right" href="#officers-carousel" data-slide="next">&rsaquo;</a>
   </div><!-- .carousel -->
   <!-- end carousel -->
+  <script>
+    $(document).keydown(function(e) {
+      var action = null;
+      if (e.keyCode == 37)
+        action = 'prev';
+      else if (e.keyCode == 39)
+        action = 'next';
+      else
+        return;
+
+      $('#officers-carousel').carousel(action);
+    });
+  </script>
 
 </section>

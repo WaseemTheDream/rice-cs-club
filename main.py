@@ -23,6 +23,7 @@ NAV_BAR = [
     {'text': 'Sponsors', 'link': 'sponsors'},
     {'text': 'Career', 'link': 'career'},
     {'text': 'Events', 'link': 'events'},
+    {'text': 'Rice Apps', 'link': 'riceapps'},
     {'text': 'Hack Rice', 'link': 'http://hack.rice.edu/'},
     {'text': 'Contact', 'link': 'contact'}]
 

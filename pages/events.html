@@ -1,3 +1,6 @@
+{% extends "template.html" %}
+{% block content %}
+
 <!-- Page Header
 ================================================== -->
 <section id="main">
@@ -8,7 +11,7 @@
  <!-- PUT CONTENT IN HERE
 ================================================== --> 
 <h3>Club Events</h3>
-  <p>Our club hosts a variety of events for computer science undergraduates. Subscribe to our <a href="https://mailman.rice.edu/mailman/listinfo/geeks-l"> mailing list</a> to get notified of upcoming events. You should also like the <a href="http://www.facebook.com/pages/Rice-Computer-Science-Club/193817073994670">Rice Computer Science Club Facebook page</a>, to which many club and department events are posted. There is also a general <a href="http://www.facebook.com/groups/365985373415471/">Rice Computer Science</a> group you can join on facebook if you have a rice email. For events related to career development, visit the <a href="career">career page</a>.</p>
+  <p>Our club hosts a variety of events for computer science undergraduates. Subscribe to our <a href="{{ links.mailing_list }}"> mailing list</a> to get notified of upcoming events. You should also like the <a href="{{ links.facebook }}">Rice Computer Science Club Facebook page</a>, to which many club and department events are posted. There is also a general <a href="{{ links.cs_facebook_group }}">Rice Computer Science</a> group you can join on facebook if you have a rice email. For events related to career development, visit the <a href="career">career page</a>.</p>
   <div class="row">
     <div class="span4">
       <h3>Social Events</h3>
@@ -17,20 +20,21 @@
 
     <div class="span4">
       <h3>Lunch Talks</h3>
-      <p>CS Club lunch talks feature Rice professors, students, and alumni with interesting research or career experiences to share. The talks are coordinated by <a href="http://www.cs.rice.edu/~greiner/">Dr. John Greiner</a>, and are open to undergraduate students only. They're generally held on Wednesdays at noon in Duncan Hall, with free lunch provided! Be sure to join the our club mailing list for announcements regarding these lunch talks.</p>
+      <p>CS Club lunch talks feature Rice professors, students, and alumni with interesting research or career experiences to share. The talks are coordinated by <a href="{{ lunch_and_learn.coordinator_link }}">{{ lunch_and_learn.coordinator }}</a>, and are open to undergraduate students only. They're generally held on Wednesdays at noon in Duncan Hall, with free lunch provided! Be sure to join the our club mailing list for announcements regarding these lunch talks.</p>
 
-      <p>For a schedule of speakers, as well as a list of past speakers, check out the <a href="https://wiki.rice.edu/confluence/display/LUNCHANDLEARN/Computer+Science+Lunch+and+Learn+Lecture+Series+-+Spring+2013">undergraduate lunch talks</a> page maintained by Matt Barnett.</p>
+      <p>For a schedule of speakers, as well as a list of past speakers, check out the <a href="{{ lunch_and_learn.link }}">undergraduate lunch talks</a>.</p>
     </div>
 
     <div class="span4">
       <h3>Hackathons</h3>
-      <p>Rice CS Club hosts a yearly student-led hackathon named <a href="http://hack.rice.edu">Hack Rice</a>. During the hackathon people get together and collaboratively code in an extreme manner over the span of a day or two to build amazing projects!</p>
+      <p>Rice CS Club hosts a yearly student-led hackathon named <a href="{{ hack_rice.link }}">Hack Rice</a>. During the hackathon people get together and collaboratively code in an extreme manner over the span of a day or two to build amazing projects!</p>
       <p>It's simple: Code, Eat, Sleep for the entire weekend and see what you come up with. We'll take care of the eating part.</p>
       <p>At the end of the hackathon, participants demonstrate their applications to the audience and a panel of judges for a chance to win prizes.</p>
-      <p>For details, visit <a href="http://hack.rice.edu/">hack.rice.edu</a>.</p>
+      <p>For details, visit <a href="{{ hack_rice.link }}">hack.rice.edu</a>.</p>
     </div>
   </div>
   <h3>Ideas?</h3>
-  <p>If you have any ideas for fun or useful events that we might be able to host, by all means send your suggestions to our socials chair <a href="mailto:cms14@rice.edu">Carolyn Shuford</a> or any one of our <a href="officers">officers</a>!</p>
+  <p>If you have any ideas for fun or useful events that we might be able to host, by all means send your suggestions to our socials chair <a href="{{ officers['Socials Chair']['contacts']['email'] }}">{{ officers["Socials Chair"]["name"] }}</a> or any one of our <a href="officers">officers</a>!</p>
 </section>
 
+{% endblock %}

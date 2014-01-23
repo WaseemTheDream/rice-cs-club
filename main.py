@@ -20,24 +20,21 @@ JINJA_ENV = jinja2.Environment(
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        template_vals = json.loads(open('global.json', 'r').read())
+        global_data = json.loads(open('global.json', 'r').read())
 
         # Get the page name being requested
         # assume index.html if none specified
         page_name = self.request.path
         if page_name == '/':
-            page_name = template_vals['nav_bar'][0]['link']
+            page_name = global_data['nav_bar'][0]['link']
 
         # Get page info
         try:
-            page = JINJA_ENV.get_template(page_name + '.html').render()
-        except Exception as e:
-            page = JINJA_ENV.get_template('not_found.html').render()
+            page = JINJA_ENV.get_template(page_name + '.html')
+        except jinja2.TemplateNotFound as e:
+            page = JINJA_ENV.get_template('not_found.html')
 
-        template_vals['page_content'] = page
-
-        template = JINJA_ENV.get_template('template.html')
-        self.response.out.write(template.render(template_vals))
+        self.response.out.write(page.render(global_data))
 
 app = webapp2.WSGIApplication([('/.*', MainHandler)],
                               debug=True)

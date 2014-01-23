@@ -1,3 +1,6 @@
+{% extends "template.html" %}
+{% block content %}
+
 <!-- Page Header
 ================================================== -->
 <section id="main">
@@ -8,7 +11,7 @@
  <!-- PUT CONTENT IN HERE
 ================================================== --> 
 <h3>Career Help</h3>
-    <p>CS Club provides career guidance to students by way of interview preparation sessions, resume review sessions, and course planning sessions (watch the <a href="https://mailman.rice.edu/mailman/listinfo/geeks-l">mailing list</a> for these events). We also give plain old peer-to-peer assistance—feel free to contact any of our <a href="officers">officers</a> with questions. We love to see people thrive in their computer science classes and get internships and job offers of their choice!</p>
+    <p>CS Club provides career guidance to students by way of interview preparation sessions, resume review sessions, and course planning sessions (watch the <a href="{{ links.mailing_list }}">mailing list</a> for these events). We also give plain old peer-to-peer assistance—feel free to contact any of our <a href="officers">officers</a> with questions. We love to see people thrive in their computer science classes and get internships and job offers of their choice!</p>
 <div class="row">
     
 
@@ -35,3 +38,4 @@
     <p>If you are searching for talent among the members of the Rice CS Club, please send any job listings to the vice president.</p>
 </section>
 
+{% endblock %}

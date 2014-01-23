@@ -1,3 +1,6 @@
+{% extends "template.html" %}
+{% block content %}
+
 <!-- Page Header
 ================================================== -->
 <section id="main">
@@ -36,7 +39,7 @@
         <strong>Application Closes:</strong> 10/26/2013 11:59 PM
       </p>
       <h3>Questions?</h3>
-      <p>Feel free to contact the coordinators: <a href="mailto:acr2@rice.edu">Aaron</a> or <a href="mailto:waseem@rice.edu">Waseem</a>.</p>
+      <p>Feel free to contact the coordinators: <a href="{{ officers['Treasurer']['contacts']['email'] }}">{{ officers["Treasurer"]["name"] }}</a> or <a href="{{ officers['President']['contacts']['email'] }}">{{ officers["President"]["name"] }}</a>.</p>
     </div>
     <div class="span6">
       <h3>FAQ</h3>
@@ -91,3 +94,4 @@
   </div>
 </section>
 
+{% endblock %}

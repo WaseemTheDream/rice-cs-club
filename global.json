@@ -6,7 +6,7 @@
     {"text": "Career",      "link": "career"},
     {"text": "Events",      "link": "events"},
     {"text": "Rice Apps",   "link": "riceapps"},
-    {"text": "Hack Rice",   "link": "http://hack.rice.edu/"},
+    {"text": "HackRice",    "link": "http://hack.rice.edu/"},
     {"text": "Contact",     "link": "contact"}
   ],
 

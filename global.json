@@ -16,14 +16,10 @@
     "cs_facebook_group": "http://www.facebook.com/groups/365985373415471/"
   },
 
-  "mailing_list": {
-    "link":              "http://bit.ly/signup4csclub"
-  },
-
   "faculty_sponsor": {
     "name":              "Dr. Scott Rixner",
-    "email":             "rixner@rice.edu",
-    "website":           "http://www.cs.rice.edu/~rixner/"
+    "email":             "mailto:rixner@rice.edu",
+    "link":           "http://www.cs.rice.edu/~rixner/"
   },
 
   "officer_positions": [

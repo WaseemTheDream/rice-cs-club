@@ -34,6 +34,7 @@
 
     "President": {
       "name":            "Waseem Ahmad",
+      "email":           "waseem@rice.edu",
       "link":            "http://waseemahmad.com",
       "image":           "img/officers/waseem.jpg",
       "class":           "Brown 2014",
@@ -71,6 +72,7 @@
 
     "Vice President": {
       "name":            "Sal Testa",
+      "email":           "sal.testa@rice.edu",
       "link":            "http://saltesta.com",
       "image":           "img/officers/sal.jpg",
       "class":           "Brown 2014",
@@ -108,6 +110,7 @@
 
     "Socials Chair": {
       "name":            "Carolyn Shuford",
+      "email":           "cms14@rice.edu",
       "image":           "img/officers/carolyn.jpg",
       "class":           "Sid Rich 2015",
       "hometown":        "Rockledge, FL",
@@ -143,6 +146,7 @@
 
     "Technical Chair": {
       "name":            "Peter Washington",
+      "email":           "peter.washington@rice.edu",
       "image":           "img/officers/peter.jpg",
       "class":           "Baker 2015",
       "hometown":        "Austin, TX",
@@ -179,6 +183,7 @@
 
     "Treasurer": {
       "name":            "Aaron Roe",
+      "email":           "acr2@rice.edu",
       "image":           "img/officers/aaron.jpg",
       "class":           "Duncan 2015",
       "hometown":        "Oklahoma City, OK",

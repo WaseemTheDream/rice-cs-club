@@ -27,7 +27,7 @@
             {% if officer.link %}
               <h1><a target="_blank" href="{{ officer.link }}">{{ officer.name }}</a></h1>
             {% else %}
-              <h1><a target="_blank">{{ officer.name }}</a></h1>
+              <h1><span>{{ officer.name }}</span></h1>
             {% endif %}
             <p>
               <strong>Class: </strong> {{ officer.class }}<br>

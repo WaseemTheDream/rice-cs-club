@@ -25,12 +25,194 @@
   "officer_positions": [
     "President",
     "Vice President",
-    "Socials Chair",
+    "Social Chair",
     "Technical Chair",
     "Treasurer"
   ],
 
   "officers": {
+
+    "President": {
+      "name":            "Peter Washington",
+      "email":           "peter.washington@rice.edu",
+      "image":           "img/officers/peter.jpg",
+      "class":           "Baker 2015",
+      "hometown":        "Austin, TX",
+      "contacts": {
+        "email":         "mailto:peter.washington@rice.edu",
+        "facebook":      "http://facebook.com/lolololpeter",
+        "twitter":       "http://www.twitter.com/peterwashington",
+        "linkedin":      "http://www.linkedin.com/profile/view?id=183284689",
+        "github":        "https://github.com/peterwashington"
+      },
+      "questions": [
+        {
+          "question": "If you could have a super power, what would it be?",
+          "answer":   "Time travel"
+        },
+        {
+          "question": "What's always in your refrigerator?",
+          "answer":   "Brownies"
+        },
+        {
+          "question": "What is your motto?",
+          "answer":   "YOLO"
+        },
+        {
+          "question": "What is your favorite book?",
+          "answer":   "The Universe In A Nutshell"
+        },
+        {
+          "question": "Hobbies / Activities / Interests",
+          "answer":   "Playing Music (Violin, Guitar, Writings Songs, Producing Music), Swinging"
+        }
+      ]
+    },
+
+    "Vice President": {
+      "name":            "Carolyn Shuford",
+      "email":           "cms14@rice.edu",
+      "image":           "img/officers/carolyn.jpg",
+      "class":           "Sid Rich 2015",
+      "hometown":        "Rockledge, FL",
+      "contacts": {
+        "email":         "mailto:cms14@rice.edu",
+        "linkedin":      "http://www.linkedin.com/in/carolynshuford",
+        "facebook":      "https://www.facebook.com/carolyn.shuford",
+        "googleplus":    "https://plus.google.com/116402794489644870277/"
+      },
+      "questions": [
+        {
+          "question": "Favorite mythical creature:",
+          "answer":   "Dragons"
+        },
+        {
+          "question": "If you could have a super power, what would it be?",
+          "answer":   "Teleportation"
+        },
+        {
+          "question": "Favorite super hero",
+          "answer":   "Fullmetal Alchemist"
+        },
+        {
+          "question": "Best video game?",
+          "answer":   "Katamari Damacy!"
+        },
+        {
+          "question": "Hobbies / Activities / Interests",
+          "answer":   "Origami, Tea, Music, Science Fiction & Fantasy"
+        }
+      ]
+    },
+
+    "Social Chair": {
+      "name":            "Kathy Li",
+      "email":           "kathy.w.li@rice.edu",
+      "image":           "img/officers/kathy.jpg", 
+      "class":           "Hanszen 2016",
+      "hometown":        "San Jose, CA",
+      "contacts": {
+        "email":         "mailto:kwl2@rice.edu",
+        "twitter":       "https://twitter.com/kathywli",
+        "linkedin":      "https://www.linkedin.com/in/kathywli"
+      },
+      "questions": [
+        {
+          "question": "What TV shows do you watch?",
+          "answer":   "So You Think You Can Dance, Project Runway, Masterchef, Sherlock, Korean dramas"
+        },
+        {
+          "question": "Dream vacation?",
+          "answer":   "Italy and Thailand"
+        },
+        {
+          "question": "Celebrity you want to meet?",
+          "answer":   "Stephen Colbert"
+        },
+        {
+          "question": "Spirit animal?",
+          "answer":   "A cuddly bunny"
+        },
+        {
+          "question": "Hobbies / Activities / Interests",
+          "answer":   "Dancing, reading blogs, hiking, trying new foods and restaurants, having good conversations!"
+        }
+      ]
+    },
+    
+    "Technical Chair": {
+      "name":            "Aaron Roe",
+      "email":           "acr2@rice.edu",
+      "image":           "img/officers/aaron.jpg",
+      "class":           "Duncan 2015",
+      "hometown":        "Oklahoma City, OK",
+      "contacts": {
+        "email":         "mailto:acr2@rice.edu",
+        "linkedin":      "http://www.linkedin.com/pub/aaron-roe/46/995/67a",
+        "github":        "https://github.com/aaronroe"
+      },
+      "questions": [
+        {
+          "question": "If you could have a super power, what would it be?",
+          "answer":   "Space-time manipulation"
+        },
+        {
+          "question": "What's your spirit animal?",
+          "answer":   "A big, fat cat"
+        },
+        {
+          "question": "Favorite League of Legends champion?",
+          "answer":   "Warwick"
+        },
+        {
+          "question": "Favorite song?",
+          "answer":   "La Ritournelle"
+        },
+        {
+          "question": "Hobbies / Activities / Interests",
+          "answer":   "Music, Trying New Restaurants, Movies, League of Legends, Electro Dance"
+        }
+      ]
+    },
+
+    "Treasurer": {
+      "name":            "Xilin Liu",
+      "email":           "xal1@rice.edu",
+      "image":           "img/officers/xilin.jpg",
+      "class":           "Duncan 2016",
+      "hometown":        "Cary, NC",
+      "contacts": {
+        "email":         "mailto:xal1@rice.edu",
+        "linkedin":      "https://www.linkedin.com/in/xilinliu",
+        "github":        "https://github.com/phrayezzen"
+      },
+      "questions": [
+        {
+          "question": "If you could have a super power, what would it be?",
+          "answer":   "Always write bug free code"
+        },
+        {
+          "question": "What's your favorite video game?",
+          "answer":   "SUPER SMASH BROTHERS"
+        },
+        {
+          "question": "Favorite letter of the alphabet?",
+          "answer":   "It's a tossup between w and y"
+        },
+        {
+          "question": "Favorite snack?",
+          "answer":   "Flaming hot Cheetos with a side of Mountain Dew"
+        },
+        {
+          "question": "Favorite programming language?",
+          "answer":   "Python <3"
+        }
+      ]
+    }
+
+  },
+
+  "officers_2013_2014": {
 
     "President": {
       "name":            "Waseem Ahmad",
@@ -108,7 +290,7 @@
       ]
     },
 
-    "Socials Chair": {
+    "Social Chair": {
       "name":            "Carolyn Shuford",
       "email":           "cms14@rice.edu",
       "image":           "img/officers/carolyn.jpg",

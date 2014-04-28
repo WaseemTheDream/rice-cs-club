@@ -7,6 +7,7 @@
     {"text": "Events",      "link": "events"},
     {"text": "Rice Apps",   "link": "riceapps"},
     {"text": "HackRice",    "link": "http://hack.rice.edu/"},
+    {"text": "Constitution","link": "/files/Constitution.pdf"},
     {"text": "Contact",     "link": "contact"}
   ],
 

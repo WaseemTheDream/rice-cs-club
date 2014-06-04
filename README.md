@@ -18,3 +18,5 @@ Authors
 **[Waseem Ahmad](http://www.waseemahmad.com/)**
 
 **[Peter Washington](mailto:peterwashington@rice.edu)**
+
+**[Kathy Li](http://about.me/kathyli)**

@@ -7,6 +7,7 @@
     {"text": "Events",      "link": "events"},
     {"text": "Rice Apps",   "link": "riceapps"},
     {"text": "HackRice",    "link": "http://hack.rice.edu/"},
+    {"text": "Constitution","link": "/files/Constitution.pdf"},
     {"text": "Contact",     "link": "contact"}
   ],
 
@@ -33,43 +34,6 @@
   "officers": {
 
     "President": {
-      "name":            "Peter Washington",
-      "email":           "peter.washington@rice.edu",
-      "image":           "img/officers/peter.jpg",
-      "class":           "Baker 2015",
-      "hometown":        "Austin, TX",
-      "contacts": {
-        "email":         "mailto:peter.washington@rice.edu",
-        "facebook":      "http://facebook.com/lolololpeter",
-        "twitter":       "http://www.twitter.com/peterwashington",
-        "linkedin":      "http://www.linkedin.com/profile/view?id=183284689",
-        "github":        "https://github.com/peterwashington"
-      },
-      "questions": [
-        {
-          "question": "If you could have a super power, what would it be?",
-          "answer":   "Time travel"
-        },
-        {
-          "question": "What's always in your refrigerator?",
-          "answer":   "Brownies"
-        },
-        {
-          "question": "What is your motto?",
-          "answer":   "YOLO"
-        },
-        {
-          "question": "What is your favorite book?",
-          "answer":   "The Universe In A Nutshell"
-        },
-        {
-          "question": "Hobbies / Activities / Interests",
-          "answer":   "Playing Music (Violin, Guitar, Writings Songs, Producing Music), Swinging"
-        }
-      ]
-    },
-
-    "Vice President": {
       "name":            "Carolyn Shuford",
       "email":           "cms14@rice.edu",
       "image":           "img/officers/carolyn.jpg",
@@ -105,6 +69,41 @@
       ]
     },
 
+    "Vice President": {
+      "name":            "Elizabeth Liu",
+      "email":           "e.liu@rice.edu",
+      "image":           "img/officers/elizabeth.jpg",
+      "class":           "McMurtry 2015",
+      "hometown":        "Plano, TX",
+      "contacts": {
+        "email":         "mailto:e.liu@rice.edu",
+        "facebook":      "https://www.facebook.com/elizabeth.liu",
+        "linkedin":      "www.linkedin.com/pub/elizabeth-liu/4a/5b2/b8"
+      },
+      "questions": [
+        {
+          "question": "If you could have a super power, what would it be?",
+          "answer":   "Time travel"
+        },
+        {
+          "question": "Favorite book?",
+          "answer":   "His Dark Materials trilogy"
+        },
+        {
+          "question": "Favorite movies?",
+          "answer":   "Shawshank Redemption, Die Hard (1, 2, 3), Singing in the Rain, Sound of Music"
+        },
+        {
+          "question": "Spirit animal?",
+          "answer":   "Otter"
+        },
+        {
+          "question": "Hobbies / Activities / Interests",
+          "answer":   "Music, Traveling, Hiking, Reading, Consuming Food and Drink"
+        }
+      ]
+    },
+
     "Social Chair": {
       "name":            "Kathy Li",
       "email":           "kathy.w.li@rice.edu",
@@ -114,16 +113,17 @@
       "contacts": {
         "email":         "mailto:kwl2@rice.edu",
         "twitter":       "https://twitter.com/kathywli",
-        "linkedin":      "https://www.linkedin.com/in/kathywli"
+        "linkedin":      "https://www.linkedin.com/in/kathywli",
+        "github":        "https://github.com/kwl"
       },
       "questions": [
         {
-          "question": "What TV shows do you watch?",
-          "answer":   "So You Think You Can Dance, Project Runway, Masterchef, Sherlock, Korean dramas"
+          "question": "TV shows you watch?",
+          "answer":   "Scandal, So You Think You Can Dance, Sherlock, Masterchef, Korean dramas"
         },
         {
           "question": "Dream vacation?",
-          "answer":   "Italy and Thailand"
+          "answer":   "Italy and Thailand, with a far-flung dream of Israel"
         },
         {
           "question": "Celebrity you want to meet?",

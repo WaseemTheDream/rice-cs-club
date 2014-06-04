@@ -1,5 +1,5 @@
 application: compsciowls
-version: 2014-2015-1
+version: 2014-2015-2
 runtime: python27
 api_version: 1
 threadsafe: yes

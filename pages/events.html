@@ -10,22 +10,24 @@
 
  <!-- PUT CONTENT IN HERE
 ================================================== --> 
+  <div class="row">
+    <div class="span6">
 <h3>Club Events</h3>
   <p>Our club hosts a variety of events for computer science undergraduates. Subscribe to our <a href="{{ links.mailing_list }}"> mailing list</a> to get notified of upcoming events. You should also like the <a href="{{ links.facebook }}">Rice Computer Science Club Facebook page</a>, to which many club and department events are posted. There is also a general <a href="{{ links.cs_facebook_group }}">Rice Computer Science</a> group you can join on facebook if you have a rice email. For events related to career development, visit the <a href="career">career page</a>.</p>
   <div class="row">
-    <div class="span4">
+    <div class="span6">
       <h3>Social Events</h3>
       <p>Throughout the year, we hold social events such as lunches, study breaks, mixers, bowling nights, and random outings. We regularly host a study break or Christmas party after classes end. In the past study breaks, we have had activities such as cookie decorating contest, gift exchange, video games, trivia, prizes and swag giveaways. We also host a movie night once a semester.</p>
     </div>
 
-    <div class="span4">
+    <div class="span6">
       <h3>Lunch Talks</h3>
       <p>CS Club lunch talks feature Rice professors, students, and alumni with interesting research or career experiences to share. The talks are coordinated by <a href="{{ lunch_and_learn.coordinator_link }}">{{ lunch_and_learn.coordinator }}</a>, and are open to undergraduate students only. They're generally held on Wednesdays at noon in Duncan Hall, with free lunch provided! Be sure to join the our club mailing list for announcements regarding these lunch talks.</p>
 
       <p>For a schedule of speakers, as well as a list of past speakers, check out the <a href="{{ lunch_and_learn.link }}">undergraduate lunch talks</a>.</p>
     </div>
 
-    <div class="span4">
+    <div class="span6">
       <h3>Hackathons</h3>
       <p>Rice CS Club hosts a yearly student-led hackathon named <a href="{{ hack_rice.link }}">HackRice</a>. During the hackathon people get together and collaboratively code in an extreme manner over the span of a day or two to build amazing projects!</p>
       <p>It's simple: Code, Eat, Sleep for the entire weekend and see what you come up with. We'll take care of the eating part.</p>
@@ -35,6 +37,12 @@
   </div>
   <h3>Ideas?</h3>
   <p>If you have any ideas for fun or useful events that we might be able to host, by all means send your suggestions to our socials chair <a href="mailto:{{ officers['Social Chair']['email'] }}">{{ officers["Social Chair"]["name"] }}</a> or any one of our <a href="officers">officers</a>!</p>
+</div>
+<div class="span6">
+
+   <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=WEEK&amp;height=500&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=rice.edu_ke8jk8i0ef1n8o2lsbk9hhha5g%40group.calendar.google.com&amp;color=%231B887A&amp;ctz=America%2FChicago" style=" border-width:0 " width="600" height="500" frameborder="0" scrolling="no"></iframe>
+   
+  </div></div>
 </section>
 
 {% endblock %}

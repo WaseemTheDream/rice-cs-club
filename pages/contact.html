@@ -11,6 +11,8 @@
 
   <div class="row">
 
+    
+
   
  <!-- PUT CONTENT IN HERE
 ================================================== --> 
@@ -20,8 +22,8 @@
       <p>We particularly encourage you to submit any suggestions you may have for the club!</p>
       <p><ul class="contact-icons" style="text-align: center;">
             <li><a class="email" target="_blank" href="mailto:{{ officers['President']['email']}}, {{officers['Vice President']['email']}}"></a></li>
-            <li><a class="facebook" target="_blank" href="http://facebook.com/ricecsclub"></a></li>
-            <li><a class="twitter" target="_blank" href="https://twitter.com/RiceCompSciClub"></a></li>
+            <li><a class="facebook" target="_blank" href="{{ links.facebook}}"></a></li>
+            <li><a class="twitter" target="_blank" href="{{ links.twitter}}"></a></li>
       </ul></p>
 
  
@@ -34,7 +36,7 @@
     <h3>Outside Rice</h3>
     <p>CS Club has a long history of collaborating with organizations and individuals outside of the Rice community. If you are interesting in working with the club, please look at the information below for different ways to get involved. We hope to hear from you soon!</p>
     <p><h5>- Tech Talks & Info Sessions</h5>
-      Tech Talks are a great way to get Rice students interested in what your company does and get in contact with potential interns and employees. If you are interested in hosting one of these, please fill out the <a href="https://docs.google.com/forms/d/1I0xrZdvsNhFKd1uN7M0W3qzHVcVUmsY59v5D9DVaSjU/viewform"> form here</a>
+      Tech Talks are a great way to get Rice students interested in what your company does and get in contact with potential interns and employees. If you are interested in hosting one of these, please email our current vice president <a href="mailto:{{ officers['Vice President']['email'] }}">{{ officers['Vice President']['name'] }}</a>. Please be ready to provide a preferred date, time, and duration.
     </p>
 
      <p><h5>- Weekly Lunch Talks</h5>
